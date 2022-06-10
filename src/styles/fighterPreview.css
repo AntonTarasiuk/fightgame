@@ -11,3 +11,33 @@
 .fighter-preview___left {
   align-items: flex-start;
 }
+
+.fighter-preview___right .fighter-preview___img {
+  transform: scale(-1, 1);
+}
+
+.fighter-preview___img {
+  width: auto;
+  height: 320px;
+  margin-bottom: 15px;
+}
+
+.fighter-preview__name {
+  margin: 0 0 10px 0;
+  letter-spacing: 0.1em;
+}
+
+.fighter-preview__info {
+  width: 120px;
+  margin: 0 15px;
+  padding: 10px;
+
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(240, 212, 120, 0.8);
+  border-radius: 10px;
+}
+
+.fighter-preview__info p {
+  margin: 0;
+}
